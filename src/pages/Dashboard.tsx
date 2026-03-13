@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import { StatCard, AgentPulse, SectionHeader, Badge } from "../components/Shared";
-import { PageKey } from "../App";
+import type { PageKey } from "../App";
 import {
   AlertTriangle, CheckCircle, Clock, DollarSign, TrendingUp,
   ArrowRight, Activity, Cpu, Wifi

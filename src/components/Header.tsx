@@ -1,4 +1,4 @@
-import { PageKey } from "../App";
+import type { PageKey } from "../App";
 import { Bell, Search, RefreshCw, Calendar } from "lucide-react";
 
 const pageTitles: Record<PageKey, { title: string; subtitle: string }> = {

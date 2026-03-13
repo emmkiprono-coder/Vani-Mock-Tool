@@ -15,7 +15,7 @@ export default function App() {
   const [activePage, setActivePage] = useState<PageKey>("dashboard");
   const [sidebarCollapsed, setSidebarCollapsed] = useState(false);
 
-  const pages: Record<PageKey, JSX.Element> = {
+  const pages: Record<PageKey, React.ReactNode> = {
     dashboard: <Dashboard onNavigate={setActivePage} />,
     contracts: <ContractOps />,
     reconciliation: <Reconciliation />,

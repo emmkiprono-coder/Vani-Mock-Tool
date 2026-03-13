@@ -1,4 +1,4 @@
-import { PageKey } from "../App";
+import type { PageKey } from "../App";
 import {
   LayoutDashboard, FileText, ArrowLeftRight, BarChart3,
   Bot, Lightbulb, ShieldCheck, ChevronLeft, ChevronRight,
